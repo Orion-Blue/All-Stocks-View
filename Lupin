@@ -2,17 +2,16 @@
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
   {
-  "symbol": "NSE:LUPIN",
-  "width": 350,
-  "height": 220,
-  "locale": "en",
-  "dateRange": "12M",
+  "width": 1100,
+  "height": 523,
+  "defaultColumn": "overview",
+  "defaultScreen": "most_capitalized",
+  "market": "india",
+  "showToolbar": true,
   "colorTheme": "dark",
-  "isTransparent": false,
-  "autosize": false,
-  "largeChartUrl": ""
+  "locale": "en"
 }
   </script>
 </div>
